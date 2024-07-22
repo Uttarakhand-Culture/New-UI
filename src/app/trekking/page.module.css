@@ -35,37 +35,6 @@
 }
 
 
-.search-section{
-    width: 100%;
-    display: flex;
-    justify-content: center;
-
-    margin: 120px 0 160px 0;
-
-}
-
-.search-container{
-    width: 500px;
-    height: 40px;
-    min-width: 300px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-evenly;
-    border-radius: 7px;
-
-    border: 1px solid #E1E4E8;
-}
-
-.item{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-}
-
-.item > p{
-    color: var(--black);
-}
 
 
 .card-container{
@@ -75,6 +44,91 @@
     align-items: center;
     justify-content: center;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.search-section {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 120px 0 160px 0;
+}
+
+.search-container {
+    width: 800px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 7px;
+    border: 1px solid #E1E4E8;
+    padding: 10px;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+
+.item > select {
+    padding: 5px 10px;
+    border: 1px solid #E1E4E8;
+    border-radius: 5px;
+    background-color: white;
+    cursor: pointer;
+}
+
+
+
+.item > select {
+    border: none;
+    letter-spacing: 1px;
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
