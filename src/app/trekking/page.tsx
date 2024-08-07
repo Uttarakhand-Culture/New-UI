@@ -1,7 +1,6 @@
 import styles from "./page.module.css"
 import Image from "next/image"
 import Card from "@/components/ui/Card";
-import DropDownMenu from "@/components/ui/DropDownMenu";
 
 export default function Trekking() {
     return (<>
@@ -13,7 +12,7 @@ export default function Trekking() {
                         <p>EXPLORE HIDDEN PLACES IN UTTARAKHAND</p>
                     </div>
                     <div className={styles["img-container"]}>
-                        <Image src={"/heroImage.png"} alt="TREKKING" width="368" height="400"/>
+                        <Image src={"./heroImage.png"} alt="TREKKING" width="368" height="400"/>
                     </div>
                 </section>
 
