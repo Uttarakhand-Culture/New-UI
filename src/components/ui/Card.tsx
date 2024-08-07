@@ -23,7 +23,7 @@ export default function Card(props: CardProps) {
                 </div>
             </div>
             <div className={styles["image-container"]} >
-                <Image src={"/roopkund.jpg"} alt={""} width={300} height={200} />
+                <Image src={"./roopkund.jpg"} alt={""} width={300} height={200} />
             </div>
         </section>
     );
