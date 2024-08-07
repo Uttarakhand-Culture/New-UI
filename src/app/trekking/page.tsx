@@ -22,7 +22,7 @@ export default function Trekking() {
                         <div className={styles["item"]}>
                             <label htmlFor="difficulty-level"/>
                             <select id="difficulty-level">
-                                <option value="" >Difficulty level</option>
+                                <option value="" >Level</option>
                                 <option value="Low">Low</option>
                                 <option value="Moderate">Moderate</option>
                                 <option value="High">High</option>

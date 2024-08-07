@@ -14,7 +14,7 @@ export default function Card(props: CardProps) {
     return(
         <section className={styles["card"]}>
             <div className={styles[""]} >
-                <h1 className={styles["title"]}>{props.title}</h1>
+                <h2 className={styles["title"]}>{props.title}</h2>
                 <p className={styles["subTitle"]}>{props.subTitle}</p>
                 <p className={styles["description"]}>{props.description}</p>
                 <div className={styles["link-container"]}>
